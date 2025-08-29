@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RegistrosApp</string>
+    <string name="gasto_title">Gastos</string>
+    <string name="cancelado_title">Me cancelaron</string>
+</resources>
