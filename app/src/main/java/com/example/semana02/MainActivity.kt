@@ -48,12 +48,13 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun PantallaRegistros() {
     val registros = listOf(
-        Registro("Supermercado", 120.50, "2025-08-25", "Gasto"),
-        Registro("Taxi", 9.00, "2025-08-26", "Gasto"),
-        Registro("Cena", 30.00, "2025-08-27", "Gasto"),
-        Registro("Pago-Préstamo", 10.0, "2025-08-20", "Cancelado"),
-        Registro("Pago-Chamba", 300.0, "2025-08-22", "Cancelado")
+        Registro("Farmacia", 45.75, "2025-08-10", "Gasto"),
+        Registro("Gasolina", 60.00, "2025-08-12", "Gasto"),
+        Registro("Cine", 15.50, "2025-08-15", "Gasto"),
+        Registro("Pago-Renta", 250.0, "2025-08-05", "Cancelado"),
+        Registro("Pago-Servicio de Internet", 40.0, "2025-08-08", "Cancelado")
     )
+
 
     Column(
         modifier = Modifier
